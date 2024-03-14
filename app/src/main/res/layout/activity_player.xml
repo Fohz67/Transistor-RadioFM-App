@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player_Activity"
+    android:background="@drawable/g_background">
+
+    <ImageView
+        android:id="@+id/i_close"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cross"
+        app:tint="@color/white200" />
+
+    <ImageView
+        android:id="@+id/shape1"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/direct"
+        app:layout_constraintEnd_toStartOf="@+id/direct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleRadio"
+        app:srcCompat="@drawable/g_left" />
+
+    <ImageView
+        android:id="@+id/shape2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/direct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/direct"
+        app:layout_constraintTop_toBottomOf="@+id/titleRadio"
+        app:srcCompat="@drawable/g_right" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/coverAllCard"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="60dp"
+        android:outlineSpotShadowColor="@color/shadow"
+        app:cardBackgroundColor="@color/border"
+        app:cardCornerRadius="17dp"
+        app:cardElevation="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/coverCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:outlineSpotShadowColor="@color/shadow"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title">
+
+            <ImageView
+                android:id="@+id/i_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:id="@+id/i_cover_null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/music"
+                android:padding="80dp"
+                app:tint="@color/white100" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/titleRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Transistor"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sf_ui_display_bold"
+        app:layout_constraintEnd_toEndOf="@+id/coverAllCard"
+        app:layout_constraintStart_toStartOf="@+id/coverAllCard"
+        app:layout_constraintTop_toBottomOf="@+id/coverAllCard" />
+
+    <TextView
+        android:id="@+id/direct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_ui_display_light"
+        android:text="En direct"
+        android:textColor="@color/white200"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/coverAllCard"
+        app:layout_constraintStart_toStartOf="@+id/coverAllCard"
+        app:layout_constraintTop_toBottomOf="@+id/titleRadio" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/direct"
+        app:srcCompat="@drawable/play_outlined"
+        app:tint="@color/white200"/>
+
+    <ImageView
+        android:id="@+id/up"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/play"
+        app:layout_constraintStart_toEndOf="@+id/play"
+        app:layout_constraintTop_toTopOf="@+id/play"
+        app:srcCompat="@drawable/arrow_right"
+        app:tint="@color/white200" />
+
+    <ImageView
+        android:id="@+id/down"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/play"
+        app:layout_constraintEnd_toStartOf="@+id/play"
+        app:layout_constraintTop_toTopOf="@+id/play"
+        app:srcCompat="@drawable/arrow_left"
+        app:tint="@color/white200" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBar"
+        app:layout_constraintStart_toEndOf="@+id/seekBar"
+        app:layout_constraintTop_toTopOf="@+id/seekBar"
+        app:srcCompat="@drawable/volume"
+        app:tint="@color/white300"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBar"
+        app:layout_constraintEnd_toStartOf="@+id/seekBar"
+        app:layout_constraintTop_toTopOf="@+id/seekBar"
+        app:srcCompat="@drawable/volume_down"
+        app:tint="@color/white300" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:progressDrawable="@drawable/custom_track"
+        android:splitTrack="false"
+        android:thumb="@drawable/custom_thumb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

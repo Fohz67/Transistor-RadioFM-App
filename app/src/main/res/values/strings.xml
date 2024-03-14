@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Transistor</string>
+
+    <string name="alouette">alouette*http://alouette.ice.infomaniak.ch/alouette-high.mp3</string>
+    <string name="beur">beur*http://beurfm.ice.infomaniak.ch/beurfm-high.mp3</string>
+    <string name="bfm">bfm*http://chai5she.cdn.dvmr.fr/bfmtv</string>
+    <string name="cheriefm">cheriefm*http://scdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3</string>
+    <string name="classique">classique*http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3</string>
+    <string name="europe1">europe1*http://ais-live.cloud-services.paris/europe1.mp3</string>
+    <string name="fg">fg*http://radiofg.impek.com/fg.mp3</string>
+    <string name="fip">fip*http://icecast.radiofrance.fr/fip-midfi.mp3</string>
+    <string name="francebleu">francebleu*http://icecast.radiofrance.fr/fb1071-hifi.aac</string>
+    <string name="franceculture">franceculture*http://icecast.radiofrance.fr/franceculture-lofi.mp3</string>
+    <string name="franceinter">franceinter*http://icecast.radiofrance.fr/franceinter-midfi.mp3</string>
+    <string name="franceinfo">franceinfo*http://icecast.radiofrance.fr/franceinfo-midfi.mp3</string>
+    <string name="fun">fun*http://streaming.radio.rtl.fr/fun-1-44-128</string>
+    <string name="hit">hit*http://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3</string>
+    <string name="jazz">jazz*http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3</string>
+    <string name="mouv">mouv*http://direct.mouv.fr/live/mouv-lofi.mp3</string>
+    <string name="mradio">mradio*http://mfm.ice.infomaniak.ch/mfm-128.mp3</string>
+    <string name="nova">nova*http://novazz.ice.infomaniak.ch/novazz-128.mp3</string>
+    <string name="nrj">nrj*http://scdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3</string>
+    <string name="ouifm">ouifm*http://streamingp.shoutcast.com/ouifm-high.mp3</string>
+    <string name="premiere">premiere*http://radios.rtbf.be/laprem1ere-64.aac</string>
+    <string name="rfm">rfm*http://ais-live.cloud-services.paris:8443/rfm.mp3</string>
+    <string name="rire">rire*http://scdn.nrjaudio.fm/adwz2/fr/30401/mp3_128.mp3</string>
+    <string name="rmc">rmc*http://chai5she.cdn.dvmr.fr/rmcinfo</string>
+    <string name="rtl">rtl*http://streaming.radio.rtl.fr/rtl-1-44-64</string>
+    <string name="skyrock">skyrock*http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3</string>
+    <string name="sud">sud*http://start-sud.ice.infomaniak.ch/start-sud-high.mp3</string>
+    <string name="virgin">virgin*http://ais-live.cloud-services.paris:8443/virgin.aac</string>
+    <string name="nostalgie">nostalgie*http://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3</string>
+
+</resources>

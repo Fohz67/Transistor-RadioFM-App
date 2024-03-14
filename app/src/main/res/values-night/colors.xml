@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //material
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#141414</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    //all black
+    <color name="black">#FFFFFF</color>
+
+    //all white
+    <color name="white">#222222</color>
+    <color name="white100">#33FFFFFF</color>
+    <color name="white200">#4DFFFFFF</color>
+    <color name="white300">#66FFFFFF</color>
+    <color name="white400">#80FFFFFF</color>
+
+    //cover
+    <color name="border">#665A5A5A</color>
+
+    //shadows
+    <color name="shadow">#000000</color>
+    <color name="shadowVertical">#000000</color>
+
+    //gradiant
+    <color name="background1">#1D1D1D</color>
+    <color name="background2">#141414</color>
+</resources>
